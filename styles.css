@@ -7,8 +7,10 @@ body {
     margin-right: 5em;
 }
 
-.exp-list {
-  columns: 2;
+@media only screen and (min-width: 767px) {
+  .exp-list {
+    columns: 2;
+  }
 }
 
 ul, p {
