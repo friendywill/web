@@ -17,7 +17,7 @@ body {
   }
 }
 
-ul, p {
+ul, p, a {
     line-height: 135%;
     font-family: 'Hurmit Nerd Font', monospace;
     font-size: 12pt;
@@ -39,10 +39,30 @@ h2 {
 }
 
 a {
-    color: #00417a;
-}
-
-a:visited {
     color: #0076df;
 }
 
+a:visited {
+    color: #00417a;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* 4 equal columns */
+  grid-template-rows: auto auto; /* 2 rows */
+  gap: 20px; /* Space between columns and rows */
+  padding: 20px;
+}
+
+.logo img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+.text {
+  text-align: center;
+  font-size: 18px;
+  color: #001428;
+}
