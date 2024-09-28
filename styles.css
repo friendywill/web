@@ -1,0 +1,42 @@
+body {
+    font-family: 'JetBrains Mono';
+    font-size: 22px;
+    background-color: #001428;
+    color: #eef7ff;
+    margin-left: 5em;
+    margin-right: 5em;
+}
+
+.exp-list {
+  columns: 2;
+}
+
+ul, p {
+    line-height: 135%;
+    font-family: 'Hurmit Nerd Font', monospace;
+    font-size: 12pt;
+}
+
+b {
+  font-size: 14pt;
+}
+
+h1 {
+    font-family: 'Hurmit Nerd Font', monospace;
+    font-size: 32pt;
+    text-align: center;
+}
+
+h2 {
+    font-family: 'Hurmit Nerd Font', monospace;
+    font-size: 22pt;
+}
+
+a {
+    color: #00417a;
+}
+
+a:visited {
+    color: #0076df;
+}
+
