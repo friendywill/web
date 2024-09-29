@@ -15,6 +15,13 @@ body {
     margin-left: 5em;
     margin-right: 5em;
   }
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* 4 equal columns */
+    grid-template-rows: auto auto; /* 2 rows */
+    gap: 20px; /* Space between columns and rows */
+    padding: 20px;
+  }
 }
 
 ul, p, a {
@@ -55,8 +62,8 @@ a:visited {
 }
 
 .logo img {
-  max-width: 100%;
-  height: auto;
+  height: 50px;
+  width: 50px;
   display: block;
   margin: 0 auto;
 }
