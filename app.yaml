@@ -1,5 +1,5 @@
+kind: wasmer.io/App.v0
 name: resume
-app_id: da_KwGIWtMUyZP8
 owner: friendywill
 package: '.'
-kind: wasmer.io/App.v0
+app_id: da_K0DIkt5UOZjd
