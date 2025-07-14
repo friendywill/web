@@ -1,0 +1,5 @@
+name: resume
+app_id: da_KwGIWtMUyZP8
+owner: friendywill
+package: '.'
+kind: wasmer.io/App.v0
